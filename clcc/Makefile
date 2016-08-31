@@ -2,7 +2,7 @@
 
 CC=i686-w64-mingw32-gcc
 LIBS=-lgdi32
-OPT =-municode -Wall -mwindows 
+OPT =-municode -Wall -mwindows  -Wl,merge.ld
 
 # BUILD INFO:
 OS='"$(shell lsb_release -d -s)"'

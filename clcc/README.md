@@ -24,8 +24,8 @@ Also *clcc* uses unicode version of win api therefore troubles with non latin la
 Here are some usefull links to sites used as examples of windows-programming:
  * [Win32 API Programming Tutorial](http://winprog.org/tutorial/);
  * [MSDN](https://msdn.microsoft.com/);
- * [Adding an icon system tray Win32 C++](https://bobobobo.wordpress.com/2009/03/30/adding-an-icon-system-tray-win32-c/).
- * [How to display text in system tray icon with win32 API?](https://stackoverflow.com/questions/457050/how-to-display-text-in-system-tray-icon-with-win32-api);
+ * [Adding an icon system tray Win32 C++](https://bobobobo.wordpress.com/2009/03/30/adding-an-icon-system-tray-win32-c/);
+ * [How to display text in system tray icon with win32 API?](https://stackoverflow.com/questions/457050/how-to-display-text-in-system-tray-icon-with-win32-api).
 
 ### Keywords
 
