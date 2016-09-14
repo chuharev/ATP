@@ -150,7 +150,8 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
                 { 
 
                     hglb = GetClipboardData(uFormat); 
-                    clpbrd_str = GlobalLock(hglb); 
+                    //clpbrd_str = GlobalLock(hglb); 
+                    clpbrd_str = hglb;
                     //MultiByteToWideChar( CP_ACP, 0, ansi_str, -1, wstr, BUFLEN);
                     //wcsncpy ( wstr, clpbrd_str, BUFLEN);
                     l1 = wcslen (clpbrd_str);
@@ -185,7 +186,7 @@ LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
                     Redraw(&g_notifyIconData, hwnd, buf, wstr );
                     //wprintf(TEXT("%s: %s \n"), buf,  wstr );
 
-                    GlobalUnlock(hglb); 
+                    //GlobalUnlock(hglb); 
                     CloseClipboard(); 
                 } 
             }
